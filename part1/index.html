@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React</title>
+</head>
+<body>
+     <div id="root">
+
+     </div>
+
+    
+      <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+      <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+
+
+
+
+
+      <script>
+        // React 
+        // to add element in react we use React.createElement and with this we need to pass 3 arguments
+        // 1. tag name
+        // 2. attributes    // object
+        // 3. children   // what we have to put inside the tag name
+
+        // const news = React.createElement("h1", {}, "hello duniya")
+        // as we have crated this heading now we have to put th heading nside the rood div
+        // to  do this react need to have a root where it can do the DOM stuff
+        // the core part of thi react is to create ekement tht is from the first link then we have to build a root that will be from the ReactDom
+        // so the syntax will be ReactDOM.createRoot(document.getElementbyId("root"))
+        // now to rendr it in root we need to put synax that is .render(and what var we  need to render)
+
+        const news = React.createElement("h1", {}, "hello duniya")
+        const renderElement = ReactDOM.createRoot(document.getElementById("root"))
+        renderElement.render(news);
+
+
+       
+      </script>
+
+
+
+
+
+
+     <script>
+      // java script
+     //  // They both retrieve elements from a webpage, however the both have specific uses. If you want your code to be the most efficient and effective code, then when you are trying to retrieve an id then you should use getElementById. If you are trying to retrieve a class or tag then you should use querySelector˙
+
+      //  const heading= document.createElement("h1")    // create element in used ot crate any element
+      //  heading.innerHTML="Hello world!!"
+
+      //  const paste = document.getElementById("root")
+      //  paste.appendChild(heading) ;                      // to appned anything we use a method called appendchild 
+     </script>
+    
+</body>
+</html>
