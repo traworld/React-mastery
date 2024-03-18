@@ -1,0 +1,25 @@
+{
+  "name": "ep1",
+  "version": "1.0.0",
+  "description": "react",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Sahil singh",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/traworld/React-mastery.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "bugs": {
+    "url": "https://github.com/traworld/React-mastery/issues"
+  },
+  "homepage": "https://github.com/traworld/React-mastery#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
